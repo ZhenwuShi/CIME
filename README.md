@@ -2,24 +2,15 @@
   <img src="cover.png" width="100%" alt="CIME Cover">
 </p>
 
-<h1 align="center">CIME: Continuous Implicit Motion Editing</h1>
-
-<p align="center">
-  Balancing Temporal Change and Rhythm Invariance via Fused Gromov-Wasserstein Alignment
-</p>
+<h1 align="center">Spatial-Temporal Synergy: Balancing Change and Invariance in Text-Driven 3D Human Motion Editing</h1>
 
 <p align="center">
   <a href='https://github.com/ZhenwuShi/CIME'>
     <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white' alt='GitHub'>
   </a>
-  <a href='https://github.com/rocket-ycyer/OmniME'>
-    <img src='https://img.shields.io/badge/Built%20on-OmniME-0B5FFF?style=flat' alt='Built on OmniME'>
-  </a>
 </p>
 
 ---
-
-CIME extends [OmniME](https://github.com/rocket-ycyer/OmniME) with a **Continuous Implicit Aligner** based on Fused Gromov-Wasserstein (FGW) optimal transport. Given a source motion and an editing instruction, it allows the target sequence length to change, while preserving the source motion's physical rhythm and global temporal topology.
 
 ## Environment & Data Setup
 
@@ -72,23 +63,3 @@ Our code is built upon [OmniME](https://github.com/rocket-ycyer/OmniME), and fur
 ## License
 
 This code is distributed under an MIT LICENSE. We also include the LICENSE of motionfix in this repo. Other third-party datasets and software are subject to their respective licenses.
-
-## Citation
-
-If you use this code, please cite CIME and the OmniME paper it extends:
-
-```bibtex
-@misc{shi2026cime,
-  title={CIME: Continuous Implicit Motion Editing},
-  author={Zhenwu Shi and Jingyu Gong and Wenxi Li and Yuan Fang and Peiwei Wang and Xingzan Wang and Qian Tianwen and Jiao Xie and Lizhuang Ma and Shaohui Lin},
-  year={2026},
-  howpublished={\url{https://github.com/ZhenwuShi/CIME}}
-}
-
-@inproceedings{shi2026omnime,
-  title={Omni-Supervised Motion Editing: Balancing Change and Invariance through Positive-Negative Learning},
-  author={Zhenwu Shi and Jingyu Gong and Wenxi Li and Yuan Fang and Peiwei Wang and Xingzan Wang and Qian Tianwen and Jiao Xie and Lizhuang Ma and Shaohui Lin},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2026}
-}
-```
